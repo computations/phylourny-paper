@@ -1,0 +1,25 @@
+digraph {
+splines=polyline
+rankdir="LR";
+
+a[shape=box];
+b[shape=box];
+c[shape=box];
+d[shape=box];
+n1[shape=box];
+n2[shape=box];
+w[shape=box];
+
+edge [
+arrowhead=onormal
+];
+
+a -> n1;
+b -> n1;
+
+c -> n2;
+d -> n2;
+
+n2 -> w;
+n1 -> w;
+}
