@@ -16,13 +16,13 @@ b -> n1;
 c -> n2;
 d -> n2;
 
-n2 -> n3;
-n1 -> n3;
+n2 -> w1;
+n1 -> w1;
 
 n1 -> l1 [style=dashed];
 n2 -> l1 [style=dashed];
 
-n3 -> w;
-l1 -> w;
+w1 -> f;
+l1 -> f;
 
 }
